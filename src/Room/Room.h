@@ -9,7 +9,7 @@
 using namespace std;
 
 class Meeting;
-typedef unordered_map<int, vector<Meeting>> Calendar;
+typedef unordered_map<int, vector<Meeting>> Calendar; //typedef is used for giving alias
 
 class Room {
 public:
